@@ -1,0 +1,111 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+	font-family: arial;
+	text-align: center;
+	background-color: #898D8F;
+}
+
+#accueil
+{
+	display: block;
+}
+
+#accueil img
+{
+	height: 500px;
+	width: 680px;
+}
+
+#titre
+{
+	color: red;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+#sous_titre
+{
+	font-size: 12px;
+}
+
+#jouer
+{
+	border-radius: 5px;
+	height: 30px;
+	width: 10%;
+	display: block;
+	margin: auto;
+}
+
+#jeu
+{
+	display: none;
+}
+
+#jeu h1
+{
+	font-size: 20px;
+}
+
+#image
+{
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: absolute;
+
+}
+#boutonQuitter
+{
+	border-radius: 5px;
+	height: 30px;
+	width: 10%;
+}
+
+#bilan
+{
+	display: none;
+}
+
+#bilan p
+{
+	font-size: 35px;
+	margin-top: 100px;
+}
+
+#result
+{
+	font-size: 30px;
+}
+
+#boutonAccueil
+{
+	background-color: red;
+	height: 100px;
+	width: 200px;
+	font-size: 40px;
+	margin-top: 300px;
+}
+
+#boutonRejouer
+{
+	background-color: red;
+	height: 100px;
+	width: 200px;
+	font-size: 40px;
+	margin-top: 300px;
+}
+
+footer
+{
+	color: black;
+	font-family: arial;
+	font-size: 12px;
+}
+canvas
+{
+	background-color: #898D8F;
+}

@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<title></title>
+	</head>
+	</body>
+		<audio loop id="son">
+			<source src="zic.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="son_scr">
+			<source src="son_scr.mp3" type="audio/mpeg">
+			
+		</audio>
+		<div id="accueil">
+			   <div id="titre">Clic sur les balles</div>
+			   <p id="sous_titre">Dans chacun des niveaux de jeu, cliquer sur les balles correspondants à la consigne affichée avant qu'elles touchent le bas du cadre!</p>
+			   <img src="img/image.png">
+			   <button id="jouer" onclick="play();">Jouer</button>
+		</div>
+
+		<div id="jeu">
+				<img src="img/screen.jpg" id="image">
+
+			   <h1 id="consigne">Cliquez sur toutes les balles rouges</h1>
+			   <div id="scores">Score 0</div>
+			   <div id="animation">
+
+			   		<canvas id="myCanvas" onclick="detect(event);" width="680" height="500"
+			   		style="border:1px solid #000000;">
+					</canvas>
+					
+			   </div>
+			   <button id="boutonQuitter" onclick="quit()">Quitter</button>
+		</div>
+		 
+		<div id="bilan">
+			   <div id="recap">
+			   		<p>Vous avez perdu!!</p>
+			   		<div id="result"></div>
+			   </div>
+			   <button id="boutonAccueil" onclick="accueil()">Accueil</button>
+			   <button id="boutonRejouer" onclick="rejouer()">Rejouer</button>
+		</div>
+		
+		    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+		    <script src="code.js"></script>
+	</body>
+</html>
